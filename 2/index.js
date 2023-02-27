@@ -1,5 +1,5 @@
-var value = 13;
-var fibonacci = [0, 1];
+let value = 13;
+let fibonacci = [0, 1];
 
 for(i = 1; i <= value; i++) {
   fibonacci.push(fibonacci[i - 1] + fibonacci[i]);
